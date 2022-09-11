@@ -4,10 +4,19 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #fbfbfb;
+    background-color: #fff;
 }
 
 /* Navbar Style */
+
+.navbar {
+    z-index: 3;
+}
+
+* {
+    z-index: 2;
+}
+
 .navbar-brand {
     font-weight: 700;
     font-size: 20px;
@@ -48,4 +57,101 @@ body {
 .hero-tagline p {
     font-size: 18px;
     width: 90%;
+}
+
+/* Card Bincang Data */
+
+#bincang {
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+}
+
+.bin h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+
+.card-bincang h5 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.card-bincang h6 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-bincang button {
+    background-color: var(--pr-color);
+    color:#fff;
+    border: none;
+    width: 200px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-bincang .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.card-bincang .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+#survei {
+    margin-bottom: 200px;
+    background: var(--pr-color);
+    height: 110vh;
+    width: 100%;
+    
+}
+
+.sur h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+
+.card-survei h5 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.card-survei h6 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-survei button {
+    background-color: var(--pr-color);
+    color:#fff;
+    border: none;
+    width: 200px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-survei .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.card-survei .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
 }
